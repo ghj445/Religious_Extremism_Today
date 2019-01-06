@@ -318,7 +318,7 @@ $(window).scroll(function(){
     }
 	}
 
-	if(windowTop >= (front7+100) && windowTop < (front2_1-150) &&section[6]==0){
+	if(windowTop >= (front7-100) && windowTop < (front2_1-200) &&section[6]==0){
   		changeSection(6)
   		disappear();
       disappear2();
@@ -340,7 +340,7 @@ $(window).scroll(function(){
 
 
 
-	if(windowTop >= (front2_1-150) && windowTop < (front2_2-200) && section[7]==0){
+	if(windowTop >= (front2_1-200) && windowTop < (front2_2-200) && section[7]==0){
       if (a3==0){
       main12();
       changeSection(7);
